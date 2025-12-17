@@ -1,0 +1,87 @@
+body {
+  background: #f2f4f8;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 460px;
+  background: white;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+}
+
+.sub {
+  text-align: center;
+  color: gray;
+  font-size: 14px;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+button {
+  background: black;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.table {
+  margin-top: 15px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  background: #f7f7f7;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.row.ai {
+  border: 2px solid #000;
+  background: #fffbe6;
+}
+
+.app {
+  font-weight: bold;
+}
+
+.meta {
+  font-size: 13px;
+  color: #333;
+}
+
+.open {
+  font-size: 13px;
+  text-decoration: none;
+  color: blue;
+}
+
+.badge {
+  font-size: 11px;
+  background: black;
+  color: white;
+  padding: 3px 6px;
+  border-radius: 4px;
+}
+
+.disclaimer {
+  font-size: 11px;
+  color: gray;
+  margin-top: 15px;
+  text-align: center;
+}
