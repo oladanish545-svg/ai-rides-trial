@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Ride Compare</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>🚕 AI Ride Compare</h1>
+  <p class="sub">Compare Ola, Uber, Rapido & inDrive instantly</p>
+
+  <input id="pickup" type="text" placeholder="Pickup location">
+  <input id="drop" type="text" placeholder="Drop location">
+
+  <select id="preference">
+    <option value="cheap">Cheapest</option>
+    <option value="fast">Fastest</option>
+    <option value="comfort">Comfort</option>
+  </select>
+
+  <button onclick="compareRides()">Compare Rides</button>
+
+  <div id="distanceInfo"></div>
+
+  <div class="table" id="results"></div>
+
+  <p class="disclaimer">
+    Estimates only. Actual booking & pricing handled by respective apps.
+  </p>
+</div>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY&libraries=places"></script>
+<script src="script.js"></script>
+</body>
+</html>
